@@ -6,7 +6,7 @@ const withSass = require("@zeit/next-sass");
 module.exports = withPlugins([[withSass], [withImages]], {
   exportPathMap: function () {
     return {
-      "/mcps": { page: "/" },
+      "/": { page: "/" },
       "/mcps/about": { page: "/about" },
       "/mcps/components": { page: "/components" },
       "/mcps/login": { page: "/login" },
