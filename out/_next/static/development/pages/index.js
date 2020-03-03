@@ -19979,7 +19979,7 @@ function Copyright() {
     __self: this
   }, 'Copyright © ', __jsx(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_21__["default"], {
     color: "inherit",
-    href: "https://material-ui.com/",
+    href: "https://aficat.github.io/mcps/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
