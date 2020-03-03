@@ -16,7 +16,7 @@ module.exports = withPlugins([[withSass], [withImages]], {
     }
   },
   //assetPrefix: '',
-  assetPrefix: !debug ? '/mcps/' : '',
+  assetPrefix: !debug ? '/material-kit-test/' : '',
   webpack: (config, { dev }) => {
     // Perform customizations to webpack config
     // console.log('webpack');

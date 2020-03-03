@@ -17,7 +17,7 @@ function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
-      <Link color="inherit" href="https://aficat.github.io/mcps/">
+      <Link color="inherit" href="https://aficat.github.io/material-kit-test/">
         Mission Creation Progress Tracker
       </Link>{' '}
       {new Date().getFullYear()}

@@ -1,5 +1,5 @@
 {
-  "name": "mcps",
+  "name": "material-kit-test",
   "version": "1.0.0",
   "description": "This is a mission creation progress tracker.",
   "main": "index.js",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aficat/mcps.git"
+    "url": "git+https://github.com/aficat/material-kit-test.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aficat/mcps/issues"
+    "url": "https://github.com/aficat/material-kit-test/issues"
   },
-  "homepage": "https://github.com/aficat/mcps#readme",
+  "homepage": "https://github.com/aficat/material-kit-test#readme",
   "dependencies": {
     "@material-ui/core": "^4.9.5",
     "@material-ui/icons": "^4.9.1",

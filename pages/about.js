@@ -10,7 +10,7 @@ function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
-      <MuiLink color="inherit" href="https://aficat.github.io/mcps/">
+      <MuiLink color="inherit" href="https://aficat.github.io/material-kit-test/">
         Mission Creation Progress Tracker
       </MuiLink>{' '}
       {new Date().getFullYear()}
@@ -26,7 +26,7 @@ export default function About() {
         <Typography variant="h4" component="h1" gutterBottom>
           Next.js example
         </Typography>
-        <Button variant="contained" color="primary" component={Link} naked href="/mcps">
+        <Button variant="contained" color="primary" component={Link} naked href="/material-kit-test">
           Go to the main page
         </Button>
         <Copyright />
