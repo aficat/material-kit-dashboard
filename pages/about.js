@@ -10,7 +10,7 @@ function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
-      <MuiLink color="inherit" href="https://material-ui.com/">
+      <MuiLink color="inherit" href="https://aficat.github.io/mcps/">
         Mission Creation Progress Tracker
       </MuiLink>{' '}
       {new Date().getFullYear()}
