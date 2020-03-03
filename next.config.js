@@ -11,7 +11,7 @@ module.exports = withPlugins([[withSass], [withImages]], {
       "/components": { page: "/components" },
       "/login": { page: "/login" },
       "/landing": { page: "/landing" },
-      "/profile": { page: "/profile" },
+      "/profile": { page: "/profile" }
     }
   },
   //assetPrefix: '',

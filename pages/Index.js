@@ -32,7 +32,7 @@ export default class Index extends Component {
           <Typography variant="h4" component="h1" gutterBottom>
             Next.js example
         </Typography>
-          <Link href="/about" color="secondary">
+          <Link href="/mcps/about" color="secondary">
             Go to the about page
         </Link>
           <ProTip />
