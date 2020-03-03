@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{ABnS:function(n,t,e){"use strict";e.r(t),e.d(t,"default",(function(){return o}));var u=e("q1tI"),i=e.n(u).a.createElement;function o(){return i("div",null,i("p",null,"Hello Next.js"))}},S4i4:function(n,t,e){(window.__NEXT_P=window.__NEXT_P||[]).push(["/Index",function(){return e("ABnS")}])}},[["S4i4",1,2,0]]]);
