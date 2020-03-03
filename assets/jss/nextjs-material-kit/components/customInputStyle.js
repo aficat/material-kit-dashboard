@@ -45,7 +45,7 @@ const customInputStyle = {
     fontSize: "14px",
     lineHeight: "1.42857",
     top: "10px",
-    letterSpacing: "unset",
+    letterSpacing: "normal",
     "& + $underline": {
       marginTop: "0px"
     }
@@ -69,7 +69,7 @@ const customInputStyle = {
     height: "unset",
     "&,&::placeholder": {
       fontSize: "14px",
-      fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
+      fontFamily: '"Karla", sans-serif',
       fontWeight: "400",
       lineHeight: "1.42857",
       opacity: "1"

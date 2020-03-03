@@ -20,6 +20,10 @@ export default class MyApp extends App {
     return (
       <React.Fragment>
         <Head>
+          <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet' />
+          <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair+Display" />
+          <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
           <title>Mission Creation Progress Tracker</title>
           <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
         </Head>

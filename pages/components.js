@@ -22,10 +22,8 @@ import SectionPills from "../pages-sections/Components-Sections/SectionPills.js"
 import SectionNotifications from "../pages-sections/Components-Sections/SectionNotifications.js";
 import SectionTypography from "../pages-sections/Components-Sections/SectionTypography.js";
 import SectionJavascript from "../pages-sections/Components-Sections/SectionJavascript.js";
-import SectionCarousel from "../pages-sections/Components-Sections/SectionCarousel.js";
 import SectionCompletedExamples from "../pages-sections/Components-Sections/SectionCompletedExamples.js";
 import SectionLogin from "../pages-sections/Components-Sections/SectionLogin.js";
-import SectionExamples from "../pages-sections/Components-Sections/SectionExamples.js";
 import SectionDownload from "../pages-sections/Components-Sections/SectionDownload.js";
 
 import styles from "../assets/jss/nextjs-material-kit/pages/components.js";
@@ -48,7 +46,7 @@ export default function Components(props) {
         }}
         {...rest}
       />
-      <Parallax image={require("../assets/img/nextjs_header.jpg")}>
+      <Parallax image={"https://www.htmlcsscolor.com/preview/gallery/00ACC1.png"}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem>
@@ -71,7 +69,6 @@ export default function Components(props) {
         <SectionNotifications />
         <SectionTypography />
         <SectionJavascript />
-        <SectionCarousel />
         <SectionCompletedExamples />
         <SectionLogin />
         <GridItem md={12} className={classes.textCenter}>
@@ -83,7 +80,6 @@ export default function Components(props) {
             </a>
           </Link>
         </GridItem>
-        <SectionExamples />
         <SectionDownload />
       </div>
       <Footer />

@@ -18,9 +18,6 @@ import CustomInput from "../../components/CustomInput/CustomInput.js";
 import CustomDropdown from "../../components/CustomDropdown/CustomDropdown.js";
 import Button from "../../components/CustomButtons/Button.js";
 
-import image from "../../assets/img/bg.jpg";
-import profileImage from "../../assets/img/faces/avatar.jpg";
-
 import styles from "../../assets/jss/nextjs-material-kit/pages/componentsSections/navbarsStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -137,7 +134,7 @@ export default function SectionNavbars() {
       <div id="navbar" className={classes.navbar}>
         <div
           className={classes.navigation}
-          style={{ backgroundImage: "url(" + image + ")" }}
+          style={{ backgroundImage: "url(" + `https://www.htmlcsscolor.com/preview/gallery/00ACC1.png` + ")" }}
         >
           <Header
             brand="Brand"
@@ -309,7 +306,7 @@ export default function SectionNavbars() {
                     dropdownHeader="Dropdown Header"
                     buttonText={
                       <img
-                        src={profileImage}
+                        src={"https://cdn.onlinewebfonts.com/svg/img_534267.png"}
                         className={classes.img}
                         alt="profile"
                       />

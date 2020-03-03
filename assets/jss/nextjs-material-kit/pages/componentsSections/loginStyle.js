@@ -1,7 +1,5 @@
 import { container } from "../../../../../assets/jss/nextjs-material-kit.js";
 
-import image from "../../../../../assets/img/sign.jpg";
-
 const loginStyle = {
   section: {
     minHeight: "110vh",
@@ -14,7 +12,7 @@ const loginStyle = {
     border: "0",
     display: "flex",
     alignItems: "center",
-    backgroundImage: "url(" + image + ")"
+    backgroundImage: "url(" + `https://www.htmlcsscolor.com/preview/gallery/00ACC1.png` + ")",
   },
   container,
   form: {
