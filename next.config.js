@@ -7,11 +7,11 @@ module.exports = withPlugins([[withSass], [withImages]], {
   exportPathMap: function () {
     return {
       "/": { page: "/" },
-      "/mcps/about": { page: "/about" },
-      "/mcps/components": { page: "/components" },
-      "/mcps/login": { page: "/login" },
-      "/mcps/landing": { page: "/landing" },
-      "/mcps/profile": { page: "/profile" },
+      "/about": { page: "/about" },
+      "/components": { page: "/components" },
+      "/login": { page: "/login" },
+      "/landing": { page: "/landing" },
+      "/profile": { page: "/profile" },
     }
   },
   //assetPrefix: '',
