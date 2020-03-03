@@ -2,18 +2,16 @@ const debug = process.env.NODE_ENV !== "production";
 const withPlugins = require("next-compose-plugins");
 const withImages = require("next-images");
 const withSass = require("@zeit/next-sass");
-const webpack = require("webpack");
-const path = require("path");
 
 module.exports = withPlugins([[withSass], [withImages]], {
   exportPathMap: function () {
     return {
-      "/": { page: "/" },
-      "/about": { page: "/about" },
-      "/components": { page: "/components" },
-      "/login": { page: "/login" },
-      "/landing": { page: "/landing" },
-      "/profile": { page: "/profile" },
+      "/mcps": { page: "/" },
+      "/mcps/about": { page: "/about" },
+      "/mcps/components": { page: "/components" },
+      "/mcps/login": { page: "/login" },
+      "/mcps/landing": { page: "/landing" },
+      "/mcps/profile": { page: "/profile" },
     }
   },
   //assetPrefix: '',
